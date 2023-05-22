@@ -11,5 +11,5 @@ class Employee:
         print(f'Зарплата: {self.salary}')
 
 
-emp = Employee('Валера', 18, 1000000)
+emp = Employee('Вероника', 19, 500000)
 emp.view()

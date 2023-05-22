@@ -10,5 +10,5 @@ class Book:
         print(f'{self.title}, {self.author} ({self.year}), {self.genre}')
 
 
-book = Book('Войны 19 века', 'Булк', 1980, 'фантастика')
+book = Book('Труп невесты', 'Тим Бертон', 2005, 'мюзикл')
 book.get_info()

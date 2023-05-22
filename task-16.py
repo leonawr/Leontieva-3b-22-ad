@@ -9,5 +9,5 @@ class Cat:
         print(f'Кошка по имени {self.name}, {self.ages} лет, цвет {self.colour}')
 
 
-cat = Cat('Пушок', 10, 'кремовый')
+cat = Cat('Белла', 3, 'белый')
 cat.get_info()

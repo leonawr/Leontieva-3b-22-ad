@@ -10,5 +10,5 @@ class Student:
         print(f'{self.name} - {self.surname}, {self.ages} лет, {self.spec}')
 
 
-student = Student('Владимир', 'Шварц', 40, 'аналитик')
+student = Student('Иван', 'Иванов', 30, 'дизайнер')
 student.get_info()

@@ -12,7 +12,7 @@ class BankAccount:
         self.balance -= rubles
 
 
-student = BankAccount('Александр', 41231, 1000)
-student.add_money(100)
-student.dec_money(40)
+student = BankAccount('Иван', 20000, 5000)
+student.add_money(1000)
+student.dec_money(300)
 print(student.balance)

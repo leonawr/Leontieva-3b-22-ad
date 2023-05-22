@@ -11,5 +11,5 @@ class Dog:
         print(f'Возраст: {self.ages}')
 
 
-dog = Dog('Стрелка', 'ротвейлер', 3)
+dog = Dog('Роки', 'той терьер', 5)
 dog.get_info()

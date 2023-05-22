@@ -13,5 +13,5 @@ class Student:
         print(f'Средний балл: {sum(self.marks) / len(self.marks)}')
 
 
-student = Student('Александр', 'Александров', 1, [10, 7, 10])
+student = Student('Иван', 'Иванов', 2, [8, 6, 4])
 student.get_info()

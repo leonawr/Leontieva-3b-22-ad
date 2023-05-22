@@ -9,5 +9,5 @@ class Person:
         print(f'Возраст: {self.ages}')
 
 
-pers = Person('Владимир', 3)
+pers = Person('Вероника', 19)
 pers.get_info()
