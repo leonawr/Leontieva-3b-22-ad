@@ -1,3 +1,3 @@
-strings = ['apple', 'orange', 'banana', 'pineapple', 'grape']
-sorted_strings = sorted(strings, reverse=True, key=len)
-print(sorted_strings)
+i = ['apple', 'orange', 'banana', 'pineapple', 'grape']
+sorted_i = sorted(i, reverse=True, key=len)
+print(sorted_i)

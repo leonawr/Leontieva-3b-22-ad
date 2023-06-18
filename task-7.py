@@ -2,7 +2,7 @@ def summary(a, b):
     return a + b
 
 
-first_num = int(input())
-second_num = int(input())
+a = int(input())
+b = int(input())
 
-print(summary(first_num, second_num))
+print(summary(a, b))

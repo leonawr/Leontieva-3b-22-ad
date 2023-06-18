@@ -1,13 +1,18 @@
-first = int(input())
-second = int(input())
-operation = input()
-if operation == '+':
-    print(first + second)
-elif operation == '-':
-    print(first - second)
-elif operation == '*':
-    print(first * second)
-elif operation == '//':
-    print(first // second)
+a = int(input())
+b = int(input())
+op = input()
+
+if op == '+':
+    print(a + b)
+
+elif op == '-':
+    print(a - b)
+
+elif op == '*':
+    print(a * b)
+
+elif op == '//':
+    print(a // b)
+
 else:
-    print(first / second)
+    print(a / b)

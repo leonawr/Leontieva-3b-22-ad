@@ -1,11 +1,14 @@
-first = 10
-second = 25
-min_compose = 1
-for i in range(2, max(first, second)):
-    if first % i == 0 and second % i == 0:
-        min_compose = i
+a = 10
+b = 25
+compose = 1
+
+for i in range(2, max(a, b)):
+    if a % i == 0 and b % i == 0:
+        compose = i
         break
-if min_compose == 1:
+
+if compose == 1:
     print('Числа взаимно просты')
+    
 else:
-    print(min_compose)
+    print(compose)

@@ -1,11 +1,12 @@
 def fib(num):
-    first = 1
-    second = 1
-    print(first)
-    print(second)
+    a = 1
+    b = 1
+    print(a)
+    print(b)
+    
     for i in range(num-2):
-        print(first + second)
-        first, second = second, first + second
+        print(a + b)
+        a, b = b, a + b
 
 
 number = int(input())

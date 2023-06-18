@@ -1,6 +1,7 @@
 try:
     with open('text.txt', 'r') as file:
-        inner = file.read()
-        print(inner)
+        i = file.read()
+        print(i)
+        
 except FileNotFoundError:
     print('Файл не найден')

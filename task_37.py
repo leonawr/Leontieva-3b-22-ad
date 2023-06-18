@@ -1,2 +1,2 @@
-def minimum(lst):
-    print(min(lst))
+def minimum(i):
+    print(min(i))

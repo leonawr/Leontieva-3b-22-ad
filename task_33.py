@@ -1,4 +1,5 @@
-string = str(input())
-letters = set(list(string))
+i = str(input())
+letters = set(list(i))
+
 for letter in letters:
-  print(f'Символ {letter} встречается в строке {string} {string.count(letter)} раз')
+  print(f'Символ {letter} встречается в строке {i} {i.count(letter)} раз')
